@@ -8,7 +8,7 @@ from vosk import Model, KaldiRecognizer, SetLogLevel
 import srt
 import pysubs2
 
-path = '/opt/wav-to-text' #путь к скрипту
+path = './' #путь к скрипту
 SetLogLevel(-1)
 
 def recognize_wav(file_name):
