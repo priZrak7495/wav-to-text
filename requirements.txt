@@ -1,0 +1,7 @@
+json
+os
+subprocess
+wave
+vosk
+srt
+pysubs2
