@@ -1,2 +1,12 @@
 # wav-to-text
-Script to convert WAV to text
+Скрипт преобразовывает звуковой файл в формате WAV в текст.
+
+<b>Требования:</b>
+1. установленный ffmpeg
+2. Python 3.6
+3. Голосовая модель VOSK (https://alphacephei.com/vosk/models) - подойдет vosk-model-small-ru-0.22
+
+<b>Установка:</b>
+1. Клонирует репозиторий
+2. Устанавливаем необходимые модули pip install -r requirements.txt
+3. В последней строке скрипта правим путь к аудиофайлу и запускаем
